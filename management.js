@@ -1,6 +1,7 @@
 let form = document.querySelector("form");
 let private_url = form.querySelector(`input[name="private_url"]`);
 let public_url = form.querySelector(`input[name="public_url"]`);
+let random_folder = form.querySelector(`input[name="random_folder"]`)
 let button = form.querySelector("button");
 let accountId = new URL(location.href).searchParams.get("accountId");
 
